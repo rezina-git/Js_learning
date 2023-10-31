@@ -115,17 +115,6 @@
 //     }
 //     x++;
 // }
- //   **Functions**
-//  function dosomething() {
-//     colsole.log('Hello world');
-//     colsole.log('Goodbye world');
-//     colsole.log('How are you?');
-//  }
-//  dosomething();
-//  dosomething();
-//  dosomething();
-//  dosomething();
-
 
 ///////////////Functions Arguments///////////////////
 // function cube(num){
@@ -181,3 +170,4 @@ console log that total.*/
 // var Name = 'Leonard';
 // console.log(Name);
 // sayName();
+/////////////Methods/////////////////////////////
