@@ -16,10 +16,16 @@ for (let key in marks){
 }
 
  //Write the program to print try again until user enters correct numbers.
-let cn = 32
-let i
-while( i!= cn){
-        i= prompt("Enter number")
-        console.log("Try again")
-    }
-console.log("You have entered correct number")
+// let cn = 32
+// let i
+// while( i!= cn){
+//         i= prompt("Enter number")
+//         console.log("Try again")
+//     }
+// console.log("You have entered correct number")
+
+//Write a function to find the mean of five numbers.
+const mean =(a,b,c,d) =>{
+    return (a+b+c+d)/4
+}
+console.log( "the mean of five numbers is" + " " , mean(4,5,6,7))
