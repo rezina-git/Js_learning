@@ -1,2 +1,3 @@
 # Js_learning
-This is sample code for JSfundamentals
+
+This is My Js learning sessions with Phicoders
