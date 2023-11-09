@@ -31,7 +31,7 @@ By using this we don't need to write keyword function instead  we first include 
     console.log("Hey how are you?")
     return hello;
  }
- let v = hi(); // hello would come insude v
+ let v = hi(); // hello would come inside v
  console.log (v);// Things that returns,come inside this and get replaced, here value of v become hello
 
  //1. Write a program to print the marks of student using for loop
