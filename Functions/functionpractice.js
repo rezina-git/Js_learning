@@ -45,8 +45,8 @@ console.log("The marks of " + Object.keys(marks)[i] + " are "+ marks[Object.keys
  }
  //Solve problem 1 using for in loop
 
- for ( let key in marks){
-   console.log("The marks of "+ key+ " are " + marks[key] )
+ for ( let keys in marks){
+   console.log("The marks of "+ keys+ " are " + marks[keys] )
  }
  // Write a function to find the mean of 5 numbers.
   const mean = (a,b,c,d,e) =>{
