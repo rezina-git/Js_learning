@@ -1,5 +1,5 @@
 // A js function is block of code designed to perform particular task.
-// **Find the average of 4 numbers using function.**
+// **Find the average of three numbers using function.**
 function avg(x,y,z){
     console.log("Done")// To print done after every o/p
     return (x+y+z)/3;
@@ -33,3 +33,23 @@ By using this we don't need to write keyword function instead  we first include 
  }
  let v = hi(); // hello would come insude v
  console.log (v);// Things that returns,come inside this and get replaced, here value of v become hello
+
+ //1. Write a program to print the marks of student using for loop
+ let marks = {
+   Ram : 96,
+   shubham :9,
+   Monika : 40
+ }                //object.keys(marks).length will give you the length and the keys that are inside the object.
+ for( let i =0;i<Object.keys(marks).length ; i++){
+console.log("The marks of " + Object.keys(marks)[i] + " are "+ marks[Object.keys(marks)[i]])
+ }
+ //Solve problem 1 using for in loop
+
+ for ( let key in marks){
+   console.log("The marks of "+ key+ " are " + marks[key] )
+ }
+ // Write a function to find the mean of 5 numbers.
+  const mean = (a,b,c,d,e) =>{
+   return (a+b+c+d+e)/5;
+  }
+  console.log("The mean of five numbers is",mean(1,2,3,4,5))
