@@ -37,25 +37,17 @@
 //     default:
 //     console.log("Nothing");
 // }
-//  ** For loop**
-// for(i=0;i<10;i++){
-//     console.log('abhi');
-// }
-// let i=0;
-// console.log(++i);
-// console.log(i);
-// console.log(++i);
-// console.log(i)
-
-
-
+ //** For loop**
+for( let i=0;i<10;i++){
+    console.log('abhi');
+}
 
 //  ** while loop**
-// let i=0;
-// while(i<10){
-//     console.log('Hello');
-//     ++i;
-// }
+let i=0;
+while(i<10){
+    console.log('Hello');
+    ++i;
+ }
 
 // ** Do while loop
 //  let i=0;
@@ -160,16 +152,6 @@ console log that total.*/
 // var addresult= addition(3);
 // console.log(addresult);   
 
-//////////////////////Function scope////////////////////////////////////
-// function sayName(){
-//     let Name = 'sheldon';
-//     console.log(Name);
-// }
-// // sayName();
-// // console.log(Name);
-// var Name = 'Leonard';
-// console.log(Name);
-// sayName();
 /////////////Methods/////////////////////////////
 // Use .toUpperCase() to log 'academy' in all uppercase letters
 console.log('academy'.toUpperCase());
