@@ -59,3 +59,14 @@
 
  let c = Object.assign({},book);
  console.log(c);
+
+ //JS Freeze
+"Use strict"
+ const computer = Object.freeze({
+   name : "Engineering licence",
+   author : "Er.Ganesh Poudel"
+ });
+ console.log(computer);
+
+ computer.name = "Civil Engineering";
+ 
