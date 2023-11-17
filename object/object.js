@@ -69,4 +69,18 @@
  console.log(computer);
 
  computer.name = "Civil Engineering";
- 
+ // JS Builtins-->Inbuilt object :console , document , location , navigator etc
+ //Inbuilt wrapper objects-: String,Number , Boolean , Math , Date , Json
+   console.log(Math.max(1,2,3,4));
+   console.log(Math.min(-10, 20, -30));
+   console.log(Math.pow(2,4));
+   console.log(Math.abs(10));
+
+   console.log(Date.now());
+   console.log(new Date().getDate());
+   console.log( new Date().getFullYear());
+
+   let currentDate = new Date();
+   let personDate = new Date( 1990, 1, 1);
+   let age = currentDate.getFullYear() - personDate.getFullYear();
+   console.log(age);
