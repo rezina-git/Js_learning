@@ -84,3 +84,18 @@
    let personDate = new Date( 1990, 1, 1);
    let age = currentDate.getFullYear() - personDate.getFullYear();
    console.log(age);
+
+   // Builtin mistakes in JS
+   /*There are some serious mistakes and issues in some of the data types and wrapper objects of 
+   JS which makes difficult to understand and differentiate during the programming.*/
+ //1.
+   console.log(typeof navigator); // o/p: undefined
+   //navigator.
+
+   //2.
+   new Number();
+   new String();
+   new Boolean();
+   // new Bigint();
+   new BigInt();
+   // Not new Math(); Math.
