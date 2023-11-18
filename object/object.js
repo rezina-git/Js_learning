@@ -97,5 +97,5 @@
    new String();
    new Boolean();
    // new Bigint();
-   new BigInt();
+    BigInt();
    // Not new Math(); Math.
