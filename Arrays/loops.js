@@ -64,3 +64,24 @@ for ( let s in stds){
     console.log(s);
 }
 //o/p: keys in object
+
+//For nested object 
+const students ={
+    name :"Imaran",
+    address :{
+        lat :1,
+        log : 1,
+        city : "Damak"
+    },
+};
+for (const key in students){
+    let value = students[key];
+    if (typeof value === "object"){
+        for (const k in value){
+            console.log(value[k]);
+        }
+    }
+    else{
+        console.log(value);
+    }
+}
