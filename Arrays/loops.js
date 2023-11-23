@@ -85,3 +85,19 @@ for (const key in students){
         console.log(value);
     }
 }
+//Recursive Function -->complex program but doing same work time to time
+//RF always need: 1.stopping condition 2. self calling + task(problem)
+//1*2*3*4*5--> Implemented by calling onself by oneself
+function factorial(n){
+    if (n==0){
+        //{base case : the factorial of 0 is 1.
+        return 1;
+    }
+        else {
+            //Recursive case :Multiply n by factor of (n-1)
+            return n*factorial(n-1);
+        }
+    }
+    //calculate the factorial of 5,
+    const result = factorial(5);
+    console.log(result);
